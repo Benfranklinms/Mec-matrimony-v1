@@ -1,0 +1,28 @@
+body{
+    background-color: #090979;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+nav{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding: 0 20px;
+    margin: 0;
+    background-color: linear-gradient(45deg, red, rgb(81, 0, 255));
+    top: 0;
+    left: 0;
+    width: 100vw;
+    box-shadow: 1px 1px 10px 1px rgb(12, 55, 147);
+    pointer-events: none;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    align-items: center;
+}
+ ul li a{
+    color: #090979;
+}

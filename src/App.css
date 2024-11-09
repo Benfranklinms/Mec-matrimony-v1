@@ -1,0 +1,9 @@
+body{
+    display: flex;
+    flex-direction: coloumn;
+    justify-content: start;
+    width: 100vw;
+}
+*{
+    box-sizing: border-box;
+}
